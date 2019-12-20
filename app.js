@@ -21,7 +21,7 @@ function onReady() {
 
    deleteBtn.addEventListener('click', function(event) {
      toDoList.removeChild(this.parentElement);
-   })
+   });
 
    // set the input's type to checkbox
    checkbox.type = "checkbox";
