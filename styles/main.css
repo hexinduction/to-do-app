@@ -1,7 +1,66 @@
 h1 {
-  font-weight: bold;
+   color: hsla(0, 0%, 100%, 0.9);
+   font-weight: bold;
+ }
+
+ main {
+   padding: 60px 0px 0px 0px;
+   max-width: 600px
+ }
+
+ .page-content {
+
+ }
+
+ .new-to-do {
+   font-weight: bold;
+   display:inline-block;
+   padding: 0px 6px 0px 6px;
+   margin: 0px 4px 0px 4px;
+ }
+
+ .type-to-do {
+   display:inline-block;
+   padding: 0px 6px 0px 6px;
+   margin: 0px 4px 0px 4px
+ }
+
+ .add-to-do {
+   display:inline-block;
+   padding: 0px 6px 0px 6px;
+   margin: 0px 4px 0px 4px
+ }
+
+ form {
+    display: inline-block;
 }
 
-.mdl-button {
-  color: #ffffff;
+.updated-list {
+  padding: 8px 8px 8px 8px;
 }
+
+.new-list {
+
+}
+
+ul {
+
+  list-style: none;
+  display: grid;
+  font-weight: lighter;
+}
+
+.list-item {
+  width: 240px;
+  font-weight: lighter;
+}
+
+.tick-box {
+
+  opacity: 0;
+}
+
+ @media screen and (max-width: 1024px) {
+    header.mdl-layout__header {
+      display: flex;
+    }

@@ -11,12 +11,14 @@ function onReady() {
 
    // create a new li
    let newLi = document.createElement('li');
-
+   newLi.className = 'updated-list'
    // create a new input
    let checkbox = document.createElement('input');
 
-   let deleteBtn = document.createElement('button');
 
+   let deleteBtn = document.createElement('button');
+   deleteBtn.className = 'mdl-button mdl-js-button mdl-button--raised mdl-button--accent';
+   componentHandler.upgradeElement(deleteBtn)
    deleteBtn.textContent = "Delete";
 
    deleteBtn.addEventListener('click', function(event) {
@@ -25,6 +27,7 @@ function onReady() {
 
    // set the input's type to checkbox
    checkbox.type = "checkbox";
+
 // set the title
    newLi.textContent = title;
 
@@ -41,6 +44,8 @@ function onReady() {
  });
 
 }
+
+
 
 
 window.onload = function() {
