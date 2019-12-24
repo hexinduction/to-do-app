@@ -23,6 +23,7 @@ function onReady() {
 
         const DELETE_BTN = document.createElement('button');
         DELETE_BTN.textContent = "Delete!";
+        DELETE_BTN.className = 'mdl-button mdl-js-button mdl-button--raised mdl-button--accent';
 
         DELETE_BTN.addEventListener('click', event => {
             toDos = toDos.filter(function(item){
