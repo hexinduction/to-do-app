@@ -1,3 +1,15 @@
 h1 {
   font-weight: bold;
 }
+
+.newToDoText {
+display: inline-block;
+}
+
+#mdl-button {
+  display: inline-block;
+}
+
+.mdl-textfield__input {
+  display: inline-block;
+}
